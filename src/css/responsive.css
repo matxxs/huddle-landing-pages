@@ -1,0 +1,53 @@
+
+@media (max-width: 1100px){
+    .main .info h2 {
+        font-size: 2.5rem;
+    }
+
+    .main .info p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    body::before {
+        background-image: url('../images/bg-mobile.svg');
+    }
+
+    main{ 
+        padding: 2rem;
+    }
+
+    .header div a img {
+        width: 130px;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main .info {
+        text-align: center;
+    }
+
+    .main .bnt-register,
+    .footer .social{
+        justify-content: center;
+    } 
+
+    .main .info button {
+        font-size: 1.5rem;
+        width: 250px;
+        height: 4.5rem;
+    }
+
+    .footer .social .icon {
+        min-width: 42px;
+        min-height: 42px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        border: 1.5px solid #fff;
+    }
+
+}
